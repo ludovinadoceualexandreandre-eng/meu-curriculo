@@ -1,0 +1,20 @@
+meu-curriculo/
+│
+├── index.html
+├── about.html
+├── portfolio.html
+├── hobbies.html
+│
+├── css/
+│   ├── estilo.css
+│   └── responsivo.css
+│
+└── assets/
+    ├── img/
+    │   └── ludovina.jpg
+    │
+    ├── audio/
+    │   └── apresentacao.mp3
+    │
+    └── video/
+        └── apresentacao.mp4
