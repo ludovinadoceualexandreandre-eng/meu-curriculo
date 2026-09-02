@@ -1,0 +1,185 @@
+@media (max-width: 850px) {
+
+    .cabecalho {
+        flex-direction: column;
+        gap: 18px;
+        padding: 18px 5%;
+    }
+
+    .menu {
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .inicio {
+        flex-direction: column;
+        text-align: center;
+        padding: 70px 5%;
+        gap: 45px;
+    }
+
+    .foto-container {
+        width: 280px;
+        height: 280px;
+    }
+
+    .apresentacao h1 {
+        font-size: 46px;
+    }
+
+    .descricao {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .botoes {
+        justify-content: center;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        max-width: 600px;
+    }
+
+
+    /* Páginas internas */
+
+    .pagina {
+        padding: 70px 5%;
+    }
+
+    .sobre-conteudo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre-foto {
+        width: 260px;
+        height: 310px;
+    }
+
+    .informacoes {
+        grid-template-columns: 1fr;
+    }
+
+    .projetos {
+        grid-template-columns: 1fr;
+        max-width: 600px;
+    }
+
+    .hobbies {
+        grid-template-columns: 1fr;
+        max-width: 600px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .cabecalho {
+        padding: 15px 4%;
+    }
+
+    .menu {
+        gap: 10px;
+    }
+
+    .menu a {
+        font-size: 11px;
+    }
+
+
+    .inicio {
+        padding: 55px 5%;
+    }
+
+    .foto-container {
+        width: 210px;
+        height: 210px;
+    }
+
+    .apresentacao h1 {
+        font-size: 34px;
+    }
+
+    .apresentacao h2 {
+        font-size: 17px;
+    }
+
+    .descricao {
+        font-size: 14px;
+    }
+
+
+    .botoes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botao {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+    }
+
+
+    .explorar {
+        padding: 60px 5%;
+    }
+
+    .pagina {
+        padding: 55px 5%;
+    }
+
+    .titulo-secao h1,
+    .titulo-secao h2 {
+        font-size: 32px;
+    }
+
+
+    .sobre-foto {
+        width: 220px;
+        height: 270px;
+    }
+
+    .contactos {
+        padding: 25px 15px;
+    }
+
+    .audio-box,
+    .video-box {
+        padding: 20px 15px;
+    }
+
+
+    .rodape {
+        padding: 28px 5%;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    .logo {
+        width: 44px;
+        height: 44px;
+    }
+
+    .menu {
+        gap: 7px;
+    }
+
+    .menu a {
+        font-size: 10px;
+    }
+
+    .foto-container {
+        width: 180px;
+        height: 180px;
+    }
+
+    .apresentacao h1 {
+        font-size: 29px;
+    }
+}
